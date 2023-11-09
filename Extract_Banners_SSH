@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "By P3g4s8s Extract banners SSH"
+echo "https://github.com/p3g4s8s/Public_Tool-"
 # Leer el archivo línea por línea
 while IFS= read -r ip; do
     echo "------------------------------------------------------------------"
