@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "By P3g4s8s Extract banners SSH"
+# Leer el archivo línea por línea
+while IFS= read -r ip; do
+    echo "------------------------------------------------------------------"
+    echo "| Intento de conexion por SSH                                 |"
+    echo -e "| Mostrando banner de la IP: [\e[91m+\e[0m][\e[91m$ip\e[0m] |"
+    ssh -o StrictHostKeyChecking=no -o PreferredAuthentications=none admin@"$ip" "$comando"
+    echo "------------------------------------------------------------------"
+    echo "| Mostrando banner SSH con SSH-keygen                                 |"
+    ssh-keyscan -T 1 $ip | grep -v 'ecdsa-sha2-nistp256' | grep -v 'ssh-rsa' | grep -v 'ssh-ed25519'
+    echo "******************************************************************"
+done < hosts.txt
