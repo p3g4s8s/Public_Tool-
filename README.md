@@ -15,7 +15,7 @@ Debe modificarse las siguientes lineas:
 
 10 --- ruta_keytool = r"RUTA\JAVA_JDK\bin\keytool.exe"
 
-12 --- ruta_jks = r"RUTA_JKS\NTORACOL01.jks"
+12 --- ruta_jks = r"RUTA_JKS\COL01.jks"
 
 <img width="378" alt="GITHUB_POC" src="https://github.com/p3g4s8s/Public_Tool-/assets/150304631/ae746112-b4f4-4a42-a89f-0399a62ce33a">
 
