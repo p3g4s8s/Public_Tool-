@@ -4,7 +4,7 @@ El fin de este script es para ejercicios de red team, donde se encuentra el serv
 
 ./Extract_Banners_SSH.sh -h
 
--------------------------------------------------------------------------------<img width="949" alt="2024-04-03 15_04_07-Acselx bat_ Bloc de notas" src="https://github.com/p3g4s8s/Public_Tool-/assets/150304631/1f14d6ea-446f-4a3f-be30-eae6ea820f77">
+-------------------------------------------------------------------------------
 
 || poc_brute_force_JKS.py ||
 
@@ -16,5 +16,8 @@ Debe modificarse las siguientes lineas:
 10 --- ruta_keytool = r"RUTA\JAVA_JDK\bin\keytool.exe"
 
 12 --- ruta_jks = r"RUTA_JKS\NTORACOL01.jks"
+
+<img width="378" alt="GITHUB_POC" src="https://github.com/p3g4s8s/Public_Tool-/assets/150304631/ae746112-b4f4-4a42-a89f-0399a62ce33a">
+
 
 Una vez modificado se puede ejecutar el comando anterior para obtener
