@@ -24,6 +24,7 @@ Una vez modificado se puede ejecutar el comando anterior para obtener
 || Escanear puertos mediante proxychains ||
 
 Simplemente abra que descargarlo, darles permisos de ejecucion cn chmod +x y posterior a ello ejecutarlo, indicandole la IP para realizar el respectivo escaneo de puertos, alli te ira dando el progreso en tiempo real, el puerto abierto es el primero ya que el segundo es unicamente el estado en el que se encontraba al momento de encontrar el puerto.
+
 ![image](https://github.com/p3g4s8s/Public_Tool-/assets/150304631/cc953cb7-a800-4e27-a0c5-3797ddeb91d3)
 
 Por defecto se encuentra configurado para escanear desde el 1 - 65535.
