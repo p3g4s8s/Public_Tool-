@@ -30,3 +30,9 @@ Simplemente abra que descargarlo, darles permisos de ejecucion cn chmod +x y pos
 ![image](https://github.com/p3g4s8s/Public_Tool-/assets/150304631/cc953cb7-a800-4e27-a0c5-3797ddeb91d3)
 
 Por defecto se encuentra configurado para escanear desde el 1 - 65535.
+
+|| CME_Asteroides ||
+Se testean protocolos comunes basado en listas de usuarios y contraseñas, asi como tambien listas de hosts. (No aplica rutas absolutas)
+
+|| Hydra_Asteroides ||
+Se testean protocolos comunes basado en listas de usuarios y contraseñas, asi como tambien listas de hosts. (Aplica rutas absolutas)
