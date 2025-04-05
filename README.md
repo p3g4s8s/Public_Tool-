@@ -30,32 +30,39 @@ Simplemente abra que descargarlo, darles permisos de ejecucion cn chmod +x y pos
 ![image](https://github.com/p3g4s8s/Public_Tool-/assets/150304631/cc953cb7-a800-4e27-a0c5-3797ddeb91d3)
 
 Por defecto se encuentra configurado para escanear desde el 1 - 65535.
-
+***************************************************************************
 || CME_Asteroides ||
 Se testean protocolos comunes basado en listas de usuarios y contraseñas, asi como tambien listas de hosts. (No aplica rutas absolutas)
-
+***************************************************************************
 || Hydra_Asteroides ||
 Se testean protocolos comunes basado en listas de usuarios y contraseñas, asi como tambien listas de hosts. (Aplica rutas absolutas)
-
+***************************************************************************
 
 || CME_SMB_Null ||
 Para buscar sesiones nulas o anonimas en entornos de red con el protocolo SMB (445)
 Uso:
+
 ./CME_SMB_Null.sh hosts.txt
 
 ![image](https://github.com/user-attachments/assets/563c664c-dab6-47fb-aa82-ba356ff523ea)
 Se pueden rutas absolutas tambien.
+
 ./CME_SMB_Null.sh home/Desktop/hosts.txt
 ***************************************************************************
 Diccionarios
 
 ***************************************************************************
 Kerberos
+
 Enumeration: kerbrute userenum -d example.local --dc 192.168.1.10 users.txt
+
 Get password Policy: 
+
 crackmapexec <IP> -u ‘user’ -p ‘password” --pass-pol
+
 BruteForce: kerbrute bruteuser -d example.local --dc 192.168.1.10 administrator passwords.txt
 
 ***************************************************************************
 Wordpress
+
 wpscan --url https://<URL> --enumerate p --plugins-detection aggressive --api-token <token>>
