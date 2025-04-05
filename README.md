@@ -51,6 +51,16 @@ Se pueden rutas absolutas tambien.
 ***************************************************************************
 Diccionarios
 
+/usr/share/wordlists/seclists/Passwords/seasons.txt
+
+/usr/share/wordlists/seclists/Passwords/months.txt
+
+/usr/share/wordlists/seclists/Passwords/xato-net-10-million-passwords-1000.txt
+
+/usr/share/wordlists/seclists/Passwords/xato-net-10-million-passwords-100000.txt
+
+/usr/share/wordlists/rockyou.txt
+
 ***************************************************************************
 Kerberos
 
