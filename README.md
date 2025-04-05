@@ -36,3 +36,26 @@ Se testean protocolos comunes basado en listas de usuarios y contraseñas, asi c
 
 || Hydra_Asteroides ||
 Se testean protocolos comunes basado en listas de usuarios y contraseñas, asi como tambien listas de hosts. (Aplica rutas absolutas)
+
+
+|| CME_SMB_Null ||
+Para buscar sesiones nulas o anonimas en entornos de red con el protocolo SMB (445)
+Uso:
+./CME_SMB_Null.sh hosts.txt
+
+![image](https://github.com/user-attachments/assets/563c664c-dab6-47fb-aa82-ba356ff523ea)
+Se pueden rutas absolutas tambien.
+./CME_SMB_Null.sh home/Desktop/hosts.txt
+***************************************************************************
+Diccionarios
+
+***************************************************************************
+Kerberos
+Enumeration: kerbrute userenum -d example.local --dc 192.168.1.10 users.txt
+Get password Policy: 
+crackmapexec <IP> -u ‘user’ -p ‘password” --pass-pol
+BruteForce: kerbrute bruteuser -d example.local --dc 192.168.1.10 administrator passwords.txt
+
+***************************************************************************
+Wordpress
+wpscan --url https://<URL> --enumerate p --plugins-detection aggressive --api-token <token>>
