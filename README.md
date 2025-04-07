@@ -76,3 +76,17 @@ BruteForce: kerbrute bruteuser -d example.local --dc 192.168.1.10 administrator 
 Wordpress
 
 wpscan --url https://<URL> --enumerate p --plugins-detection aggressive --api-token <token>>
+
+
+***************************************************************************
+Brute_Force_SMB.py
+
+Uso:
+
+Example:
+python3 script_smb.py 172.31.40.162 -u david -w /root/Desktop/Wordlists/Passwords/months.txt
+
+python3 script_smb.py IP -u USERTEST -w WORDLIST
+
+Comprobado tanto para usuarios locales como usuarios administradores
+Sirve para realizar ataques de fuerza bruta de forma segura y sin falsos positivos, una excelente alternativa a crackmapexec debido a que llega a un punto y se satura, tambien hydra que no soporta las respuesta de SMB2 y SMB3.
